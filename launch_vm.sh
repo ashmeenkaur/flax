@@ -4,8 +4,8 @@ PROJECT=gcs-fuse-test
 GCS_BUCKET=gcsfuse-ml-data
 GCS_TFDS_BUCKET=gcsfuse-ml-data
 GCS_BUCKET=princer-working-dirs
-REPO=https://github.com/raj-prince/flax.git
-BRANCH=princer_jax
+REPO=https://github.com/ashmeenkaur/flax.git
+BRANCH=main
 
 python3 examples/cloud/launch_gce.py \
   --project=$PROJECT \
